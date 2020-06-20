@@ -92,7 +92,7 @@ class BaseModel {
         try {
             $stmt->execute();
             return $this;
-        } catch(Exception $e){
+        } catch(PDOException $e){
             var_dump($e->getMessage());die;
         }
     }
