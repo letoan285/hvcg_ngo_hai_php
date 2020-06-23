@@ -31,7 +31,7 @@ $products = $model->all();
                             <th>Name</th>
                             <th>Price</th>
                             <th>Category</th>
-                            <th><a class="btn btn-sm btn-success" href="">Add</a></th>
+                            <th><a class="btn btn-sm btn-success" href="add_product.php">Add</a></th>
                         </tr>
                     </thead>
                     <tbody>
